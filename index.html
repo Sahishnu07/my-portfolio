@@ -3,30 +3,42 @@
 	<head>
 		<title>Sahishnu Portfolio</title>
         <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+            body {
+                cursor: url(purple-rinnegan-eye-particle-texture-a3e6.png), auto;
+            }
+        </style>
 	</head>
 	<body class="text-center bg-black text-red-600 h-screen overflow-y-scroll snap-y snap-mandatory">
+
+     <div class="fixed right-5 top-1/2 -translate-y-1/2 flex flex-col gap-3">
+            <a href="#home" class="w-3 h-3 rounded-full bg-red-600 hover:scale-125 transition"></a>
+            <a href="#about" class="w-3 h-3 rounded-full bg-red-600 hover:scale-125 transition"></a>
+            <a href="#My Stuff" class="w-3 h-3 rounded-full bg-red-600 hover:scale-125 transition"></a>
+            <a href="#links" class="w-3 h-3 rounded-full bg-red-600 hover:scale-125 transition"></a>
+        </div>   
         
-     <div class="h-screen snap-start flex flex-col justify-center items-center p-10">
+     <div id="home" class="h-screen snap-start flex flex-col justify-center items-center p-10">
 	   	<h1 class="text-red-600 text-6xl font-bold">I'm Sahishnu</h1>
 		<p class="text-red-600 italic">I am Sahishnu.I am a high school student doing the phantom hackaton.</p>
         <p class="text-red-600 text-sm mt-10">scroll down</p>
     </div>
         
-    <div class="h-screen snap-start flex flex-col justify-center items-center p-10">
+    <div id="about" class="h-screen snap-start flex flex-col justify-center items-center p-10">
         <h2 class="text-red-600 text-4xl font-bold">About Me</h2>
         <p class="text-red-600 italic">I love playing soccer and chilling with friends.</p>
         <img src="john_pork.jpg" alt="This is John Pork" class="w-64 rounded-lg shadow-lg mx-auto border-4 border-red-600" />
         <p class="text-red-600 italic mt-2">scroll down</p>
     </div>
 
-    <div class="h-screen snap-start flex flex-col justify-center items-center p-10">
+    <div id="My Stuff" class="h-screen snap-start flex flex-col justify-center items-center p-10">
         <h2 class="text-red-600 text-4xl font-bold">My Stuff</h2>
         <p class="text-red-600 italic">I like to participate on events like this and get prizes.</p>
         <p class="text-red-600 italic mt-2"> I also love watching soccer and make projects related to it sometimes.</p>
         <img src="Hackaton photo,website.png" alt="Vini nutmegs Araujo" class="w-64 rounded-lg shadow-lg mx-auto border-4 border-red-600" />
     </div> 
         
-     <div class="h-screen snap-start flex flex-col justify-center items-center p-10">
+     <div id="links" class="h-screen snap-start flex flex-col justify-center items-center p-10">
         <h2 class="text-red-600 text-4xl font-bold">Use my referall link to signup for the event I am participating in</h2>
         <a href="https://phantom.hackclub.com/?ref=aVT44" class="text-red-600 underline hover:text-red-600">Hack Club</a>
     </div>
