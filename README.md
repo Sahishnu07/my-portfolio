@@ -28,6 +28,11 @@ This project is my personal portfolio designed to tell what I enjoy doing during
 ### Installing 
 
 -clone the repository to the device you are using
-- Make sure 'index.html', 'john pork.jpg' and 
+- Make sure 'index.html', 'john pork.jpg' and 'cursor.png' are all kept in the same root project folder so that the images and the cursor load properly.
 
+### Executing program
+-open the downloaded 'my portfolio' folder
+-double click 'index.html' 
 
+### Help 
+- If the images are not loading properly, make sure the files names match the ones in this repository
